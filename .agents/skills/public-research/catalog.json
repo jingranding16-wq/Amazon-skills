@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "count": 12,
+  "skills": [
+    {
+      "name": "sealeap-amazon-fba-reimbursement-audit",
+      "title": "FBA 赔偿与成本复核",
+      "description": "核对 FBA 丢失或损坏事件、采购成本与已赔金额，生成证据缺口、成本差异和复核材料。用于少赔、库存缺陷、获物成本或赔偿记录对账；不处理买家退款，也不自动提交索赔。",
+      "path": "sealeap-amazon-fba-reimbursement-audit/SKILL.md",
+      "verified_at": "2026-09-23"
+    },
+    {
+      "name": "sealeap-amazon-sp-offsite-diagnostics",
+      "title": "SP 站内外流量诊断",
+      "description": "诊断 Amazon Sponsored Products 在站内、站外媒体与创作者渠道的花费和转化变化。用于 Amazon and beyond、站外流量、SP ACOS 上升或站点投放范围核对；不把整体掉单自动归因于算法，也不替代创作者佣金测算。",
+      "path": "sealeap-amazon-sp-offsite-diagnostics/SKILL.md",
+      "verified_at": "2026-09-23"
+    },
+    {
+      "name": "sealeap-amazon-prompts-ad-audit",
+      "title": "SP/SB 智购提示广告审计",
+      "description": "分析 Amazon Sponsored Products 与 Sponsored Brands Prompts 的问题文本、商品事实、花费及成熟转化，生成核查和暂停候选。用于智购提示广告、Prompts 报表和错误回答审查；不用于编写通用 AI 提示词或操纵购物助手推荐。",
+      "path": "sealeap-amazon-prompts-ad-audit/SKILL.md",
+      "verified_at": "2026-09-23"
+    },
+    {
+      "name": "sealeap-amazon-ppwr-packaging-audit",
+      "title": "欧洲包装 PPWR 合规材料自查",
+      "description": "按欧盟配送国家、主体、包装类型和当前平台要求核对 PPWR/EPR 注册、ERN 上传、申报缴费及证据状态。用于欧洲包装合规、号码被拒、代付与注册差异或跨国配送检查；不自动注册、签约、缴费，也不出具法律合规认证。",
+      "path": "sealeap-amazon-ppwr-packaging-audit/SKILL.md",
+      "verified_at": "2026-09-23"
+    },
+    {
+      "name": "sealeap-amazon-creator-commission-planning",
+      "title": "创作者合作与佣金利润测算",
+      "description": "为 Amazon Creator Connections 规划商品、品牌加佣、样品和活动预算，并用实际结算口径复盘贡献利润。用于达人合作佣金上限、寄样盈亏或活动复盘；区分按销售加佣与 Sponsored Products for creators 按点击费用，不自动联系达人或发布活动。",
+      "path": "sealeap-amazon-creator-commission-planning/SKILL.md",
+      "verified_at": "2026-09-23"
+    },
+    {
+      "name": "sealeap-amazon-sqp-period-reconciliation",
+      "title": "SQP 跨期对账与流量诊断",
+      "description": "合并同一 Amazon Brand Analytics SQP 范围内不重叠的完整周期，重算查询份额与漏斗比率，并比较需求、曝光、点击及购买变化。用于月季度拼接、同比环比和销量下降归因；不直接平均百分比、不混合 Brand/ASIN 视图，也不把缺失查询记零。",
+      "path": "sealeap-amazon-sqp-period-reconciliation/SKILL.md",
+      "verified_at": "2026-09-23"
+    },
+    {
+      "name": "sealeap-amazon-selling-partner-connector",
+      "title": "官方 Selling Partner 连接与能力核验",
+      "description": "核验 Amazon Selling Partner Connector 的账户、权限、实时工具及数据口径，并把销售、补货、Listing 或月结任务路由到可用能力。用于官方卖家 MCP 接入、连接验收或能力缺失排查；不替代 Amazon Ads API，也不自动发起授权或扩大权限。",
+      "path": "sealeap-amazon-selling-partner-connector/SKILL.md",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "name": "sealeap-amazon-data-kiosk-reconciliation",
+      "title": "Data Kiosk 一方经营数据对账",
+      "description": "核验 Amazon Data Kiosk 当前 schema、权限和查询成本，规划 Seller Analytics 与经济性数据提取并与同口径后台报表对账。用于销售流量退货费用关联、数据缺口或经营口径冲突；不把缺失值补零或把 Vendor 数据作为 Seller 数据。",
+      "path": "sealeap-amazon-data-kiosk-reconciliation/SKILL.md",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "name": "sealeap-amazon-support-case-tracking",
+      "title": "亚马逊客服工单跟踪",
+      "description": "通过已授权 Support API 或用户导出，整理 Amazon 工单状态、往来、附件和回电安排，输出时间线、材料缺口与跟进草稿。用于未解决工单、重复开案和支持处理跟踪；不假设只读 API 能创建或回复工单。",
+      "path": "sealeap-amazon-support-case-tracking/SKILL.md",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "name": "sealeap-amazon-multichannel-operations",
+      "title": "Seller Central 多渠道经营协同",
+      "description": "核验 Seller Central 多渠道工具资格，规划 Amazon 与 Shopify、TikTok Shop、Walmart、eBay 的 SKU 映射、共享库存、订单履约和对账。用于多渠道接入试点与超卖排查；不替代各平台规则或将 MCF 可用等同于全链路同步。",
+      "path": "sealeap-amazon-multichannel-operations/SKILL.md",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "name": "sealeap-amazon-first-party-audience",
+      "title": "Ads Data Manager 第一方数据与受众",
+      "description": "核验 Amazon Ads Data Manager 的数据授权、来源、数据集与投放目标，设计第一方受众接入、质量检查和增量实验。用于 ADM、客户列表或网站事件接入及 AMC 受众应用；不上传未经授权的客户数据，不承诺 ROAS 提升。",
+      "path": "sealeap-amazon-first-party-audience/SKILL.md",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "name": "sealeap-amazon-ads-mcp-analytics",
+      "title": "Ads MCP Lite 与 AMC 智能分析",
+      "description": "用实时工具发现核验 Amazon Ads MCP Lite 能力，规划只读广告报表或 AMC 查询并校验粒度、归因和汇总。用于广告 Agent 接入验收、MCP 动态工具或 AMC Expert 查询审查；不把 Ads 连接当卖家库存利润通道，也不凭生成 SQL 自动改广告。",
+      "path": "sealeap-amazon-ads-mcp-analytics/SKILL.md",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}
